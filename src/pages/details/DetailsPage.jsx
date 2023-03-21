@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from "react";
+import "./details.css";
+import { AiOutlinePlus, AiOutlineMinus, AiOutlineHeart } from "react-icons/ai";
 
-export const DetailsPage = () => {
+export const DetailsPages = () => {
   return (
-    <div>DetailsPage</div>
-  )
-}
+    <>
+      <h1>DetailsPages</h1>
+    </>
+  );
+};
