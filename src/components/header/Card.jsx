@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BiShoppingBag } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { product } from "../../assets/data/data";
-import { CartItems } from "./CartItems";
+import { CardItems } from './CardItems'
 import { useSelector } from "react-redux";
 
 export const Card = () => {
@@ -37,7 +37,7 @@ export const Card = () => {
           </button>
         </div>
         {cartItems.map((item) => (
-          <CartItems
+          <CardItems
             id={item.id}
             cover={item.cover}
             name={item.name}
